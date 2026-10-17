@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+    <defs>
+      <radialGradient id="grad-IMG-20261016-WA0170.jpg" cx="50%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.22"/>
+        <stop offset="70%" stop-color="#0B0F19" stop-opacity="0.95"/>
+        <stop offset="100%" stop-color="#080a10" stop-opacity="1"/>
+      </radialGradient>
+      <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FDE047"/>
+        <stop offset="50%" stop-color="#D4AF37"/>
+        <stop offset="100%" stop-color="#92400E"/>
+      </linearGradient>
+    </defs>
+    <rect width="1200" height="800" fill="#0B0F19"/>
+    <rect width="1200" height="800" fill="url(#grad-IMG-20261016-WA0170.jpg)"/>
+    
+    <!-- Architectural grid lines -->
+    <g stroke="rgba(212,175,55,0.08)" stroke-width="1">
+      <line x1="100" y1="0" x2="100" y2="800"/>
+      <line x1="1100" y1="0" x2="1100" y2="800"/>
+      <line x1="0" y1="100" x2="1200" y2="100"/>
+      <line x1="0" y1="700" x2="1200" y2="700"/>
+    </g>
+
+    <!-- Ornate Outer Border -->
+    <rect x="35" y="35" width="1130" height="730" fill="none" stroke="url(#goldGrad)" stroke-width="2" rx="12" opacity="0.75"/>
+    <rect x="45" y="45" width="1110" height="710" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" rx="8"/>
+
+    <!-- Corner luxury ornaments -->
+    <g fill="#D4AF37">
+      <polygon points="45,45 75,45 45,75" opacity="0.8"/>
+      <polygon points="1155,45 1125,45 1155,75" opacity="0.8"/>
+      <polygon points="45,755 75,755 45,725" opacity="0.8"/>
+      <polygon points="1155,755 1125,755 1155,725" opacity="0.8"/>
+    </g>
+
+    <!-- Top Badge -->
+    <g transform="translate(600, 140)">
+      <rect x="-160" y="-18" width="320" height="36" rx="18" fill="rgba(212,175,55,0.15)" stroke="#D4AF37" stroke-width="1.5"/>
+      <text font-family="'Playfair Display', serif" font-size="14" font-weight="bold" fill="#D4AF37" text-anchor="middle" dy="6" letter-spacing="3">★ WEDDING VENUE • NARMADA RESORT ★</text>
+    </g>
+
+    <!-- Center Royal Crest -->
+    <g transform="translate(600, 270)">
+      <circle cx="0" cy="0" r="68" fill="rgba(0,0,0,0.45)" stroke="url(#goldGrad)" stroke-width="3"/>
+      <circle cx="0" cy="0" r="58" fill="none" stroke="rgba(212,175,55,0.4)" stroke-dasharray="4,3" stroke-width="1"/>
+      <text font-family="'Playfair Display', serif" font-size="42" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle" dy="14">NR</text>
+      <!-- Small crown / ornament above -->
+      <path d="M-24,-45 L-12,-35 L0,-50 L12,-35 L24,-45 L18,-28 L-18,-28 Z" fill="#D4AF37"/>
+    </g>
+
+    <!-- Text Information -->
+    <text x="600" y="410" font-family="'Playfair Display', serif" font-size="42" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Narmada Resort - Night Exterior Wide Shot</text>
+    <text x="600" y="460" font-family="sans-serif" font-size="20" fill="#E5C07B" text-anchor="middle" font-weight="500">Illuminated 'NARMADA RESORT' & 'नर्मदा रिसॉर्ट' signage and festive wedding entrance</text>
+    
+    <!-- Property metadata -->
+    <g transform="translate(600, 530)">
+      <rect x="-250" y="-20" width="500" height="40" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+      <text font-family="sans-serif" font-size="16" fill="#CBD5E1" text-anchor="middle" dy="6">Amalner, Maharashtra • Rating: 4.1 ★ (90+ Reviews)</text>
+    </g>
+
+    <!-- Exact filename indicator -->
+    <g transform="translate(600, 610)">
+      <rect x="-180" y="-16" width="360" height="32" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text font-family="monospace" font-size="15" fill="#38BDF8" text-anchor="middle" dy="5">Local File: IMG-20261016-WA0170.jpg</text>
+    </g>
+
+    <!-- Bottom contact bar -->
+    <text x="600" y="715" font-family="sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle" letter-spacing="2">OPEN 24 HOURS • BOOKINGS &amp; INQUIRY: 093091 98795</text>
+  </svg>

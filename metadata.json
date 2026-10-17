@@ -1,0 +1,6 @@
+{
+  "name": "Narmada Resort | Luxury Wedding Venue & Guest Rooms",
+  "description": "Narmada Resort (नर्मदा रिसॉर्ट) - Premier wedding venue, celebration lawn, banquet halls & 24/7 deluxe AC guest rooms in Amalner, Maharashtra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

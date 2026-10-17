@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  ::selection {
+    background-color: #D4AF37;
+    color: #0B0F19;
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-marathi {
+  font-family: 'Tiro Devanagari Marathi', 'Playfair Display', serif;
+}
+
+/* Custom Gold Accent Styles */
+.text-gold {
+  color: #D4AF37;
+}
+
+.bg-gold {
+  background-color: #D4AF37;
+}
+
+.border-gold {
+  border-color: #D4AF37;
+}
+
+.btn-gold-shimmer {
+  background: linear-gradient(90deg, #B38B22 0%, #F5DEB3 50%, #B38B22 100%);
+  background-size: 200% 100%;
+  transition: all 0.3s ease;
+}
+
+.btn-gold-shimmer:hover {
+  background-position: 100% 0;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.45);
+}
+
+.glass-panel {
+  background: rgba(22, 31, 48, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.glass-nav {
+  background: rgba(11, 15, 25, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.photo-card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-6px);
+}
+
+.photo-card img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.photo-card:hover img {
+  transform: scale(1.07);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0F19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F293D;
+  border-radius: 5px;
+  border: 2px solid #0B0F19;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
